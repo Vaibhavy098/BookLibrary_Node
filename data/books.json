@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "status": "Unread",
+    "description": "A philosophical novel about following dreams and discovering one's purpose.",
+    "date": "2026-08-10T07:12:24.674Z"
+  },
+  {
+    "id": 2,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "status": "Read",
+    "description": "A practical guide to building good habits and breaking bad ones.",
+    "date": "2026-08-10T07:12:51.117Z"
+  },
+  {
+    "id": 3,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "status": "Unread",
+    "description": "A guide to writing clean and maintainable software.",
+    "date": "2026-08-10T07:13:08.312Z"
+  }
+]

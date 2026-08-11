@@ -1,0 +1,63 @@
+body {
+  background-color: #f5f7fa;
+}
+
+.book-card {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-4px);
+}
+
+.book-card .card-title {
+  max-width: 75%;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.modal.show {
+  display: block;
+}
+
+.custom-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1040;
+}
+
+.modal {
+  z-index: 1050;
+}
+
+.modal-dialog {
+  position: relative;
+  z-index: 1051;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+#searchInput {
+  border-radius: 6px;
+}
+
+.book-card .btn {
+  flex: 1;
+}
+
+@media (max-width: 576px) {
+  .book-card .d-flex.gap-2 {
+    flex-direction: column;
+  }
+
+  .book-card .btn {
+    width: 100%;
+  }
+}
